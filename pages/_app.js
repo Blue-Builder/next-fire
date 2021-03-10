@@ -1,8 +1,14 @@
+import Navbar from '@components/Navbar.js'
 import '@styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
-  // eslint-disable-next-line react/jsx-props-no-spreading
-  return <Component {...pageProps} />
+  return (
+    <>
+      <Navbar />
+      {/* eslint-disable-next-line react/jsx-props-no-spreading */}
+      <Component {...pageProps} />
+    </>
+  )
 }
 
 export default MyApp
