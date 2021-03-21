@@ -75,8 +75,8 @@
       {},
       {
         "usePrettierrc": true
+        // Use our .prettierrc file as source
       }
     ]
-    // Use our .prettierrc file as source
   }
 }

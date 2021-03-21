@@ -1,8 +1,10 @@
+import { selectUser, selectUsername } from '@lib/redux/authSlice'
 import Link from 'next/link'
+import { useSelector } from 'react-redux'
 
 export default function Navbar() {
-  const user = null
-  const username = null
+  const user = useSelector(selectUser)
+  const username = useSelector(selectUsername)
 
   return (
     <nav className='navbar'>

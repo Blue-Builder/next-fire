@@ -12,6 +12,7 @@
     "eslint-import-resolver-alias": "^1.1.2",
     "firebase": "^8.2.10",
     "firebase-admin": "^9.5.0",
+    "lodash": "^4.17.21",
     "next": "10.0.8",
     "next-images": "^1.7.0",
     "react": "17.0.1",
